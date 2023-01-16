@@ -3,11 +3,12 @@
 Console.Clear();
 Console.WriteLine("Давайте определим массив чётных чисел от 1 до указанного вами числа");
 Console.Write("Введите число:");
-int N = Convert.ToInt32(Console.ReadLine());
-int M = 0;
+int n = Convert.ToInt32(Console.ReadLine());
+int m = 1;
 
-while (M <= N && N%2 == 0)
+while (m <= n)
 {
-    Console.Write($"{N}, ");
-    M = M++;
+    if (m%2 == 0)
+    Console.Write($"{m} ");
+    m = m + 1;
 }
