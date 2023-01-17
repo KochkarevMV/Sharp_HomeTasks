@@ -2,7 +2,7 @@
 
 Console.Clear();
 Console.WriteLine("Давайте определим третью цифру вашего числа");
-Console.WriteLine("Введите трёхзначное число");
+Console.WriteLine("Введите число");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = a%10;
 
