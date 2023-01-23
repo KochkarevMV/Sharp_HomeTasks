@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Программа принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+
+Console.Clear();
+Console.WriteLine("Давайте определим палиндром ли ваше число");
+Console.Write("Введите пятизначное число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a >= 10000 && a < 100000 && a/10000 == a%10 && (a%100)/10 == (a%10000)/1000) // a/10000 - находит первое число, a%10 - находит последнее число, (a&100)/10 - находит четвёртое число, (a%10000)/1000 - находит второе число
+Console.WriteLine("Число является полиндромом");
+else
+Console.WriteLine("Число не является полиндромом");
