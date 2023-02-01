@@ -9,16 +9,22 @@
 
 Console.Clear();
 Console.WriteLine("Введите значение b1: ");
-int b1 = Convert.ToInt32(Console.ReadLine());
+double b1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите значение k1: ");
-int k1 = Convert.ToInt32(Console.ReadLine());
+double k1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите значение b2: ");
-int b2 = Convert.ToInt32(Console.ReadLine());
+double b2 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите значение k2: ");
-int k2 = Convert.ToInt32(Console.ReadLine());
+double k2 = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine($"Точка b1 = {b1}");
 Console.WriteLine($"Точка k1 = {k1}");
 Console.WriteLine($"Точка b2 = {b1}");
 Console.WriteLine($"Точка k2 = {b2}");
 
+double x = (b2 - b1) / (k1 - k2);
+double y = k1 * ((b2 - b1) / (k1 - k2)) + b1;
+Console.Write($"X равен ");
+Console.WriteLine($"{x}");
+Console.Write($"Y равен ");
+Console.WriteLine($"{y}");
