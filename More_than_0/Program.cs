@@ -8,23 +8,23 @@ Console.WriteLine("Введит кол-во чисел: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 
-void YourArray (int [] array)
+void YourArray(int[] array)
 {
     for (int i = 0; i < n; i++)
-    array[i] = new Random().Next(-100,100);
+        array[i] = new Random().Next(-100, 100);
 }
 
 
-int HowMany (int [] array)
+int HowMany(int[] array)
 {
     int count = 0;
     foreach (int element in array)
-    if (element > 0)
-    count++;
-return count;
+        if (element > 0)
+            count++;
+    return count;
 }
 
-int [] numbers = new int [n];
+int[] numbers = new int[n];
 YourArray(numbers);
 Console.Write("Ваш ряд чисел: ");
 Console.WriteLine(string.Join(",", numbers));
