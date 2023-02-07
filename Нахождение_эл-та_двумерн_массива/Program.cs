@@ -26,12 +26,13 @@ int Finder (int [,] array)
     Console.WriteLine("Введите позицию элемента в массиве: ");
     int [] n = Console.ReadLine().Split().Select(x => int.Parse(x)).ToArray();
     int x = 0;
+    string y = "Такого элемента нет в массиве";
     for(int i = 0; i < array.GetLength(0); i++)
     {
         for(int j = 0; j < array.GetLength(0); j++)
         {
             if (i <= n[0] && j <= n[1])
-            x = array[n[0], n[1]];
+            x = array[n[0], n[1]];    
         }
     }
 return x;
