@@ -22,7 +22,7 @@ void InputMatrix(double[,] matrix)
 }
 
 
-double SearchElementToMatrix(double[,] matrix, int row, int column)
+double Search (double[,] matrix, int row, int column)
 {
     if (matrix.GetLength(0) > row && matrix.GetLength(1) > column && row >= 0 && column >= 0)
         return matrix[row, column];
@@ -37,7 +37,7 @@ double[,] matrix = new double[size[0], size[1]];
 InputMatrix(matrix);
 int[] coord = Console.ReadLine().Split().Select(x => int.Parse(x)).ToArray();
 Console.Write("Введите позицию элемента: ");
-double result = SearchElementToMatrix(matrix, coord[0] - 1, coord[1] - 1);
+double result = Search (matrix, coord[0] - 1, coord[1] - 1);
 if (result != 0)
     Console.WriteLine(result);
 else
