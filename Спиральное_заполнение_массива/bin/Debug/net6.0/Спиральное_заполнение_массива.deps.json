@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Спиральное_заполнение_массива/1.0.0": {
+        "runtime": {
+          "Спиральное_заполнение_массива.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Спиральное_заполнение_массива/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
