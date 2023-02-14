@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Трёхмерн_неповтор_массив_и_вывод/1.0.0": {
+        "runtime": {
+          "Трёхмерн_неповтор_массив_и_вывод.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Трёхмерн_неповтор_массив_и_вывод/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
