@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Функция_Аккермана_чз_рекурсию/1.0.0": {
+        "runtime": {
+          "Функция_Аккермана_чз_рекурсию.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Функция_Аккермана_чз_рекурсию/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
