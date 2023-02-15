@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Сумма_натур_эл_в_промежутке/1.0.0": {
+        "runtime": {
+          "Сумма_натур_эл_в_промежутке.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Сумма_натур_эл_в_промежутке/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
